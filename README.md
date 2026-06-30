@@ -20,7 +20,11 @@ The resume relies on standard LaTeX packages such as `geometry`, `titlesec`, `hy
 
 ## 🚀 How to Compile
 
-To generate the PDF from the `.tex` source file, simply run the following command in your terminal from the root directory of this repository:
+**For Windows Users:**
+The easiest way to compile the resume is to simply double-click the `compile.bat` file in your File Explorer. This script automatically runs the compiler and keeps the terminal open so you can check for any errors.
+
+**Using the Terminal (Mac/Linux/Windows):**
+You can also generate the PDF manually by running the following command in your terminal from the root directory of this repository:
 
 ```bash
 pdflatex DA_Resume.tex
